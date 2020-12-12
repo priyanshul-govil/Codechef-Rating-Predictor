@@ -17,6 +17,6 @@ headers = {
     'if-modified-since': 'Sun, 19 Jan 2020 20:09:42 +0000',
 }
 
-response = requests.get('https://www.codechef.com/users/noob77777', headers=headers)
+response = requests.get('https://www.codechef.com/users/priyanshul', headers=headers)
 
 

@@ -33,7 +33,7 @@ class RankListParser:
                     username_list[i] = username_list[i].find('a')['href'].split('/')[-1]
                 self.user_list.extend(username_list)
                 j += 1
-                print("Page:\t", j-1," :: ", "Users:\t", len(self.user_list));
+                print("Page:\t", j-1," :: ", "Users:\t", len(self.user_list))
             except:
                 print("Network Error from RankListParser.")
                 time.sleep(2)
